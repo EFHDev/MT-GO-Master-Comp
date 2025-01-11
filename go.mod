@@ -1,4 +1,4 @@
-module MT-GO
+module MTGO
 
 go 1.22
 

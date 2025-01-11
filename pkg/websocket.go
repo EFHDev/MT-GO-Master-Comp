@@ -1,8 +1,8 @@
 package pkg
 
 import (
-	"MT-GO/data"
 	"fmt"
+	"mtgo/data"
 )
 
 const getWebsocket string = "%s/getwebsocket/%s"

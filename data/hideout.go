@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"MT-GO/tools"
+	"mtgo/tools"
 
 	"github.com/goccy/go-json"
 )

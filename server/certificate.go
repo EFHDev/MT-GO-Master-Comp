@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"MT-GO/tools"
+	"mtgo/tools"
 )
 
 const certPath string = "user/cert"

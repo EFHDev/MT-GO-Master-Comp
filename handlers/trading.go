@@ -2,12 +2,13 @@ package handlers
 
 import (
 	"fmt"
-	"github.com/go-chi/chi/v5"
 	"log"
 	"net/http"
 	"time"
 
-	"MT-GO/pkg"
+	"github.com/go-chi/chi/v5"
+
+	"mtgo/pkg"
 )
 
 func TradingCustomizationStorage(w http.ResponseWriter, r *http.Request) {

@@ -1,14 +1,15 @@
 package pkg
 
 import (
-	"MT-GO/tools"
 	"errors"
-	"github.com/go-chi/chi/v5"
 	"io"
 	"log"
+	"mtgo/tools"
 	"net/http"
 	"os"
 	"path/filepath"
+
+	"github.com/go-chi/chi/v5"
 )
 
 type ResponseBody struct {

@@ -1,12 +1,13 @@
 package data
 
 import (
-	"MT-GO/tools"
 	"fmt"
-	"github.com/alphadose/haxmap"
 	"log"
+	"mtgo/tools"
 	"path/filepath"
 	"strings"
+
+	"github.com/alphadose/haxmap"
 
 	"github.com/goccy/go-json"
 )

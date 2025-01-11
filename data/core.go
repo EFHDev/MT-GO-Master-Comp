@@ -1,8 +1,8 @@
 package data
 
 import (
-	"MT-GO/tools"
 	"log"
+	"mtgo/tools"
 	"path/filepath"
 
 	"github.com/goccy/go-json"

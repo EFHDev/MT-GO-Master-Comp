@@ -1,9 +1,9 @@
 package data
 
 import (
-	"MT-GO/tools"
 	"fmt"
 	"log"
+	"mtgo/tools"
 	"path/filepath"
 	"strings"
 	"time"

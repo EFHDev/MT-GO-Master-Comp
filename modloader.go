@@ -1,20 +1,21 @@
 package main
 
 import (
-	"MT-GO/data"
-	"MT-GO/tools"
 	"fmt"
-	"github.com/goccy/go-json"
 	"log"
+	"mtgo/data"
+	"mtgo/tools"
 	"os"
 	"os/exec"
 	"path/filepath"
 	"strings"
+
+	"github.com/goccy/go-json"
 )
 
 const (
-	MTGOUserMods = "%s\"MT-GO/mods/%s\""
-	//MTGO_SERVER    = "\"MT-GO/server\""
+	MTGOUserMods = "%s\"mtgo/mods/%s\""
+	//MTGO_SERVER    = "\"mtgo/server\""
 	ModNameMod        = "%s.Mod()"
 	BundlesToLoad     = "var bundlesToLoad = []string{%s,\n}"
 	BundlesToLoadLoop = "for _, path := range bundlesToLoad {\n\t\tformattedPath := strings.Replace(path, \"\\\\\\\\\", \"\\\\\", -1)\n\t\tdata.AddModBundleDirPath(formattedPath)\n\t}"
@@ -75,7 +76,7 @@ func main() {
 			dir := filepath.Join(mods, name)
 			if tools.FileExist(filepath.Join(dir, "bundles")) {
 				if !bundleLoader {
-					imports = append(imports, "\"MT-GO/data\"", "\"strings\"")
+					imports = append(imports, "\"mtgo/data\"", "\"strings\"")
 					calls = append(calls, BundlesToLoadLoop)
 
 					bundleLoader = true

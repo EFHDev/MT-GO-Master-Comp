@@ -1,10 +1,11 @@
 package data
 
 import (
-	"MT-GO/tools"
 	"fmt"
-	"github.com/goccy/go-json"
 	"log"
+	"mtgo/tools"
+
+	"github.com/goccy/go-json"
 )
 
 var weaponMastering = make(map[string]int16)

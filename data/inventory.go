@@ -4,7 +4,8 @@ import (
 	"log"
 	"slices"
 
-	"MT-GO/tools"
+	"mtgo/tools"
+
 	"github.com/goccy/go-json"
 )
 

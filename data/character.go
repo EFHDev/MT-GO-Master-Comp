@@ -1,12 +1,13 @@
 package data
 
 import (
-	"MT-GO/tools"
 	"fmt"
-	"github.com/goccy/go-json"
 	"log"
+	"mtgo/tools"
 	"path/filepath"
 	"strings"
+
+	"github.com/goccy/go-json"
 )
 
 func setCharacter(path string) *Character[map[string]PlayerTradersInfo] {

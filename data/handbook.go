@@ -2,11 +2,12 @@ package data
 
 import (
 	"fmt"
-	"github.com/alphadose/haxmap"
 	"log"
 	"math"
 
-	"MT-GO/tools"
+	"github.com/alphadose/haxmap"
+
+	"mtgo/tools"
 
 	"github.com/goccy/go-json"
 )

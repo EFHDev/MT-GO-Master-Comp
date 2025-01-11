@@ -2,9 +2,10 @@
 package data
 
 import (
-	"MT-GO/tools"
-	"github.com/alphadose/haxmap"
+	"mtgo/tools"
 	"sync"
+
+	"github.com/alphadose/haxmap"
 )
 
 const (

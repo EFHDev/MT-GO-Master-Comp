@@ -2,11 +2,12 @@ package data
 
 import (
 	"fmt"
-	"github.com/goccy/go-json"
 	"log"
 	"path/filepath"
 
-	"MT-GO/tools"
+	"github.com/goccy/go-json"
+
+	"mtgo/tools"
 )
 
 func setStorage(path string) *Storage {

@@ -1,15 +1,16 @@
 package server
 
 import (
-	"MT-GO/data"
-	"MT-GO/pkg"
 	"crypto/tls"
 	"fmt"
-	"github.com/go-chi/chi/v5"
-	"github.com/go-chi/chi/v5/middleware"
 	"log"
+	"mtgo/data"
+	"mtgo/pkg"
 	"net/http"
 	"time"
+
+	"github.com/go-chi/chi/v5"
+	"github.com/go-chi/chi/v5/middleware"
 )
 
 type muxt struct {

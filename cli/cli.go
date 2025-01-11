@@ -1,16 +1,17 @@
 package cli
 
 import (
-	"MT-GO/data"
-	"MT-GO/tools"
 	"bufio"
 	"context"
 	"fmt"
-	"github.com/alphadose/haxmap"
 	"log"
+	"mtgo/data"
+	"mtgo/tools"
 	"os"
 	"os/exec"
 	"path/filepath"
+
+	"github.com/alphadose/haxmap"
 )
 
 func Start() {

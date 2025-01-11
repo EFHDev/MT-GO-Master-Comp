@@ -1,8 +1,8 @@
 package pkg
 
 import (
-	"MT-GO/data"
 	"fmt"
+	"mtgo/data"
 )
 
 func GetFlea(handbookId string) (data.Flea, error) {

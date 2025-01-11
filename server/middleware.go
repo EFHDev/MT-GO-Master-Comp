@@ -1,15 +1,16 @@
 package server
 
 import (
-	"MT-GO/data"
-	"MT-GO/pkg"
 	"context"
-	"github.com/goccy/go-json"
-	"github.com/gorilla/websocket"
 	"log"
+	"mtgo/data"
+	"mtgo/pkg"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/goccy/go-json"
+	"github.com/gorilla/websocket"
 )
 
 var upgrader = websocket.Upgrader{

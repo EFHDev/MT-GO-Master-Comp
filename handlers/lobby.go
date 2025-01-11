@@ -1,10 +1,11 @@
 package handlers
 
 import (
-	"MT-GO/pkg"
-	"github.com/go-chi/chi/v5"
 	"log"
+	"mtgo/pkg"
 	"net/http"
+
+	"github.com/go-chi/chi/v5"
 )
 
 func LobbyPushNotifier(w http.ResponseWriter, r *http.Request) {

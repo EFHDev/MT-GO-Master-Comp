@@ -2,11 +2,12 @@ package data
 
 import (
 	"fmt"
-	"github.com/goccy/go-json"
 	"log"
 	"path/filepath"
 
-	"MT-GO/tools"
+	"github.com/goccy/go-json"
+
+	"mtgo/tools"
 )
 
 var messageType = map[string]int8{

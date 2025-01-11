@@ -1,13 +1,14 @@
 package data
 
 import (
-	"MT-GO/tools"
 	"fmt"
-	"github.com/alphadose/haxmap"
-	"github.com/goccy/go-json"
 	"log"
+	"mtgo/tools"
 	"strconv"
 	"strings"
+
+	"github.com/alphadose/haxmap"
+	"github.com/goccy/go-json"
 )
 
 type Quest struct {

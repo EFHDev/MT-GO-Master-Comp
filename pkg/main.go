@@ -1,11 +1,11 @@
 package pkg
 
 import (
-	"MT-GO/data"
-	"MT-GO/tools"
 	"fmt"
 	"log"
 	"math"
+	"mtgo/data"
+	"mtgo/tools"
 	"strings"
 )
 

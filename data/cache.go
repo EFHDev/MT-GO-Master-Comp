@@ -1,13 +1,14 @@
 package data
 
 import (
-	"MT-GO/tools"
 	"fmt"
-	"github.com/alphadose/haxmap"
-	"github.com/goccy/go-json"
 	"log"
+	"mtgo/tools"
 	"path/filepath"
 	"slices"
+
+	"github.com/alphadose/haxmap"
+	"github.com/goccy/go-json"
 )
 
 const (

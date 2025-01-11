@@ -3,13 +3,13 @@
 package main
 
 import (
-	"MT-GO/cli"
-	"MT-GO/mods"
-	"MT-GO/server"
 	"fmt"
+	"mtgo/cli"
+	"mtgo/mods"
+	"mtgo/server"
 	"time"
 
-	"MT-GO/data"
+	"mtgo/data"
 )
 
 func main() {

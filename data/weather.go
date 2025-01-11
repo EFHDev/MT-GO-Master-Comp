@@ -1,9 +1,9 @@
 package data
 
 import (
-	"MT-GO/tools"
 	"fmt"
 	"math/rand"
+	"mtgo/tools"
 	"time"
 )
 

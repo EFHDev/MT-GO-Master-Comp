@@ -1,11 +1,12 @@
 package pkg
 
 import (
-	"MT-GO/data"
-	"MT-GO/tools"
-	"github.com/goccy/go-json"
 	"log"
+	"mtgo/data"
+	"mtgo/tools"
 	"slices"
+
+	"github.com/goccy/go-json"
 )
 
 type transfer struct {

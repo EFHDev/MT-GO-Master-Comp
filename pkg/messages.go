@@ -1,11 +1,12 @@
 package pkg
 
 import (
-	"MT-GO/data"
 	"fmt"
-	"github.com/goccy/go-json"
 	"log"
+	"mtgo/data"
 	"net/http"
+
+	"github.com/goccy/go-json"
 )
 
 const systemSenderID string = "59e7125688a45068a6249071"

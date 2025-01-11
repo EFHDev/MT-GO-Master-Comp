@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"MT-GO/data"
-	"MT-GO/pkg"
 	"log"
+	"mtgo/data"
+	"mtgo/pkg"
 	"net/http"
 )
 

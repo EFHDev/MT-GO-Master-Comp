@@ -1,11 +1,12 @@
 package data
 
 import (
-	"MT-GO/tools"
 	"fmt"
-	"github.com/goccy/go-json"
 	"log"
+	"mtgo/tools"
 	"path/filepath"
+
+	"github.com/goccy/go-json"
 )
 
 // #region Location getters

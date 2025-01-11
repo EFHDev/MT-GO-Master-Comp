@@ -1,11 +1,12 @@
 package handlers
 
 import (
-	"MT-GO/pkg"
-	"MT-GO/tools"
-	"github.com/goccy/go-json"
 	"log"
+	"mtgo/pkg"
+	"mtgo/tools"
 	"net/http"
+
+	"github.com/goccy/go-json"
 )
 
 type ESortType int8

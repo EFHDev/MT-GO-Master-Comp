@@ -2,11 +2,12 @@
 package server
 
 import (
-	"MT-GO/handlers"
-	"MT-GO/pkg"
-	"github.com/go-chi/chi/v5"
 	"log"
+	"mtgo/handlers"
+	"mtgo/pkg"
 	"net/http"
+
+	"github.com/go-chi/chi/v5"
 )
 
 var mainRouteHandlers = map[string]http.HandlerFunc{

@@ -1,16 +1,17 @@
 package handlers
 
 import (
-	"MT-GO/data"
-	"MT-GO/pkg"
-	"MT-GO/tools"
 	"fmt"
-	"github.com/go-chi/chi/v5"
-	probing "github.com/prometheus-community/pro-bing"
 	"log"
+	"mtgo/data"
+	"mtgo/pkg"
+	"mtgo/tools"
 	"net/http"
 	"strconv"
 	"strings"
+
+	"github.com/go-chi/chi/v5"
+	probing "github.com/prometheus-community/pro-bing"
 
 	"github.com/goccy/go-json"
 )

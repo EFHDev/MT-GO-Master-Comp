@@ -1,11 +1,12 @@
 package pkg
 
 import (
-	"MT-GO/data"
 	"fmt"
-	"github.com/go-chi/chi/v5"
+	"mtgo/data"
 	"net/http"
 	"sort"
+
+	"github.com/go-chi/chi/v5"
 )
 
 // GetCorrectAmountOfItemsPurchased returns a new slice of which each index
